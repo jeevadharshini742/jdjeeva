@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>JD Food Delivery</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #fff;
+      color: #333;
+    }
+    header {
+      background: #fc8019;
+      padding: 20px 30px;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    header .logo {
+      font-weight: bold;
+      font-size: 36px;
+      letter-spacing: 6px;
+      cursor: pointer;
+      font-family: 'Arial Black', Arial, sans-serif;
+    }
+    header input[type="search"] {
+      padding: 10px 15px;
+      border-radius: 20px;
+      border: none;
+      width: 320px;
+      max-width: 100%;
+      font-size: 16px;
+    }
+    .menu-section {
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+    h2 {
+      color: #fc8019;
+      border-bottom: 2px solid #fc8019;
+      padding-bottom: 5px;
+      margin-bottom: 15px;
+    }
+    .menu-items {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .menu-item {
+      flex: 1 1 280px;
+      border: 1px solid #ddd;
+      border-radius: 12px;
+      padding: 15px;
+      background: #fff8f0;
+      box-shadow: 0 1px 4px rgba(252,128,25,0.1);
+      cursor: default;
+      transition: box-shadow 0.3s;
+    }
+    .menu-item:hover {
+      box-shadow: 0 6px 15px rgba(252,128,25,0.3);
+    }
+    .menu-item h3 {
+      margin-top: 0;
+      margin-bottom: 8px;
+      color: #fc8019;
+    }
+    .menu-item p {
+      margin: 0;
+      font-size: 14px;
+      color: #555;
+    }
+    footer {
+      background: #fc8019;
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+      font-size: 14px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">JD</div>
+    <input type="search" placeholder="Search for dishes..." />
+  </header>
+
+  <section class="menu-section">
+    <h2>Non-Veg Menu</h2>
+    <div class="menu-items">
+      <div class="menu-item">
+        <h3>Chicken Biryani</h3>
+        <p>Spicy and flavorful chicken cooked with basmati rice.</p>
+      </div>
+      <div class="menu-item">
+        <h3>Mutton Biryani</h3>
+        <p>Rich mutton pieces cooked with aromatic spices and rice.</p>
+      </div>
+      <div class="menu-item">
+        <h3>Chicken 65</h3>
+        <p>Deep-fried spicy chicken bites, a popular appetizer.</p>
+      </div>
+      <div class="menu-item">
+        <h3>Butter Chicken</h3>
+        <p>Creamy tomato gravy with tender chicken pieces.</p>
+      </div>
+      <div class="menu-item">
+        <h3>Fish Fry</h3>
+        <p>Fresh fish marinated and fried with spices.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="menu-section">
+    <h2>Appetizers & Beverages</h2>
+    <div class="menu-items">
+      <div class="menu-item">
+        <h3>Fresh Juice</h3>
+        <p>Seasonal fresh fruit juices.</p>
+      </div>
+      <div class="menu-item">
+        <h3>Ice Cream</h3>
+        <p>Assorted flavors of creamy ice cream.</p>
+      </div>
+      <div class="menu-item">
+        <h3>Cokes</h3>
+        <p>Chilled classic cola drink.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 JD Food Delivery. All rights reserved.
+  </footer>
+</body>
+</html>
